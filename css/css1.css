@@ -161,3 +161,25 @@ p {
   margin-bottom: 1.5em;
   margin-top: 1.5em;
 }
+#desktop-nav{
+  display: block;
+}
+
+#phone-nav, #boot2{
+  display: none;
+}
+
+
+@media(max-device-width : 667px)
+{
+  #image-somos{
+    display: none;
+  }
+  #desktop-nav{
+    display: none;
+  }
+  
+  #phone-nav, #boot2{
+    display: block;
+  }
+}

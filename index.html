@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/css1.css"/>
     <link rel="icon" type="image/png" href="./imagenes/dilo.png"/>
+     <!-- Bootstrap CSS -->
+      <link rel="stylesheet" id="boot2" href="" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <title>
         DILO DEBATE
     </title>
@@ -13,23 +16,42 @@
 
     </head>
     <body>
-<header class="header sticky sticky--top js-header">
+      <header class="header sticky sticky--top js-header" id="desktop-nav">
 
-  <div class="grid">
-
-    <nav class="navigation">
-      <ul class="navigation__list navigation__list--inline">
-        <li class="navigation__item"><a href="index.html"><img src="./imagenes/dilo.png" title="Home" width="75" height="75"></a></li>
-        <li class="navigation__item"><a href="quienes.html">Quiénes somos</a></li>
-        <li class="navigation__item"><a href="programa.html">Nuestro programa</a></li>
-        <li class="navigation__item"><a href="trabaja.html">Trabaja con nosotros</a></li>
-        <li class="navigation__item"><a href="contactanos.html">Contáctanos</a></li>
-      </ul>
-    </nav>
-<hr color="#2d4b64"> 
-  </div>
-
-</header>
+        <div class="grid">
+      
+          <nav class="navigation">
+            <ul class="navigation__list navigation__list--inline">
+              <li class="navigation__item"><a href="index.html"><img src="./imagenes/dilo.png" title="Home" width="75" height="75"></a></li>
+              <li class="navigation__item"><a href="quienes.html">Quiénes somos</a></li>
+              <li class="navigation__item"><a href="programa.html" >Nuestro programa</a></li>
+              <li class="navigation__item"><a href="trabaja.html">Trabaja con nosotros</a></li>
+              <li class="navigation__item"><a href="contactanos.html">Contáctanos</a></li>
+            </ul>
+          </nav>
+      <hr color="#2d4b64"> 
+        </div>
+      
+      </header>
+      <nav class="navigation navbar navbar-expand-sm navbar-light fixed-top  bg-light" id="phone-nav">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="./imagenes/dilo.png" title="Home" width="75" height="75"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+                      data-target="#navLinks" aria-controls="navbarSupportedContent" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+          <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav">
+          <li class="navigation__item nav-item active"><a href="quienes.html">Quiénes somos</a></li>
+          <li class="navigation__item nav-item"><a href="programa.html">Nuestro programa</a></li>
+          <li class="navigation__item nav-item"><a href="trabaja.html">Trabaja con nosotros</a></li>
+          <li class="navigation__item nav-item"><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+        </div>
+        
+        
+      </nav>
 
  <main>
   <div class="grid" >
@@ -62,5 +84,15 @@
     <a class="foottext">&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp Debate, Investigación, Lógica y Oratoria</a>
     <a class="fa fa-facebook" class="footitem"  href="https://www.facebook.com/DILO2019"> </a> 
     <a href="#" class="fa fa-instagram" href="https://www.instagram.com/dilo_debate"></a>
+
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="./js/nav.js"></script>
+
 </body>
