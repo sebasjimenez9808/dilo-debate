@@ -234,7 +234,7 @@ p {
 }
 
 .img_item {
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 #img_shadow{
@@ -250,4 +250,13 @@ p {
 
 #gradletters{
   color: black;
+}
+#image-somos{
+  display: block;
+}
+@media(max-device-width : 667px)
+{
+  #image-somos{
+    display: none;
+  }
 }
